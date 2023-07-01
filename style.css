@@ -205,8 +205,8 @@ nav ul li.drop {
 
 .section3 iframe {
     position: absolute;
-    top: -50px;
-    left: 70px;
+    top: -30px;
+    left: 50px;
     width: 30%;
     height: 200px;
     border: 1px solid black;
@@ -446,7 +446,7 @@ nav ul li.drop {
     text-align: center;
     color: white;
     left: 25%;
-    top: 405%;
+    top: 460%;
 }
 
 .section8 h2 {
