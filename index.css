@@ -200,7 +200,14 @@ div.about {
 @media (max-width: 1037px) {
 
     .head {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cool {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     nav {
