@@ -1,0 +1,947 @@
+/* =================== Default ==================== */
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* =================== Header ==================== */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4ecca6;
+    color: white;
+}
+
+.head1 {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.head1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.head1 p {
+    display: flex;
+    gap: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding: 10px;
+    align-items: center;
+}
+
+nav p {
+    font-size: 30px;
+    font-weight: 900;
+    color: #4ecca6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #4ecca6;
+}
+
+nav ul li button {
+    padding: 10px;
+    background-color: #4ecca6;
+    color: white;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+nav ul li.drop {
+    display: none;
+}
+
+/* ================= Main ====================== */
+
+.image img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 700px;
+    filter: brightness(50%);
+}
+
+.textarea {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 500px;
+    background-color: #00000075;
+    color: white;
+    width: 400px;
+    background-color: #00000075;
+    color: white;
+    box-shadow: 1px 2px 5px 8px gray;
+
+}
+
+.textarea h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+.textarea p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.textarea button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #4ecca6;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+/* =============== Section2 ==================== */
+
+.section2 {
+    position: absolute;
+    top: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.section2a {
+    background-color: white;
+}
+
+.section2a,
+.section2b {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.section2 img {
+    margin-top: 20px;
+}
+
+.section2b {
+    position: relative;
+    top: -20px;
+    background-color: #4ecca6;
+    color: white;
+}
+
+.section2b button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.section2 h2,
+.section2 p {
+    padding: 5px;
+}
+
+.section2a button {
+    margin-top: 10px;
+    color: #4ecca6;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+/* =================== Section3 ================= */
+
+.section3 {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e7e7e7b1;
+}
+
+.section3 iframe {
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+.section3a {
+    display: flex;
+}
+
+.section3ai {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.section3a h2,
+.section3a p,
+.section3a img {
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.section3ai img {
+    width: 40px;
+    height: 40px;
+}
+
+.section3 div {
+    width: 70%;
+}
+
+.section3b {
+    padding: 100px 50px 50px 0;
+}
+
+.section3b p.about {
+    color: #4ecca6;
+    font-weight: 900;
+    padding: 0 0 20px 0;
+}
+
+.section3b button {
+    background-color: #4ecca6;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+/* ================== Section4 =================== */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    align-items: center;
+    padding: 40px;
+}
+
+.section4a {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.section4a div {
+    width: 50%;
+    padding: 20px;
+    border-bottom: 3px solid #4ecca6;
+    margin: 10px;
+    box-shadow: -1px 1px 3px 2px gray;
+}
+
+.section4a .back {
+    background-color: #4ecca6;
+    color: white;
+}
+
+.section4a .btn button {
+    background-color: #4ecca6;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.section4a .btn h3 {
+    color: #4ecca6;
+}
+
+.section4 h2,
+.section4 img,
+.section4 h3,
+.section4 p {
+    padding: 5px;
+}
+
+/* ==================== Section5 =================== */
+.section5 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    padding: 50px;
+    background-color: #e7e7e7b1;
+
+}
+
+.section5 div {
+    width: 60%;
+    padding: 20px;
+}
+
+.section5 div img {
+    width: 500px;
+    position: relative;
+    box-shadow: -1px 1px 3px 2px gray;
+}
+
+.section5 .style {
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .style div {
+    background-color: white;
+    margin-left: -100px;
+    margin-top: -30px;
+    z-index: 1;
+    border-left: 3px solid #4ecca6;
+    box-shadow: 2px 1px 2px 1px grey;
+}
+
+.section5 .style1 h2,
+.section5 .style1 p,
+.section5 .style1 ul {
+    padding: 5px;
+}
+
+.style1 button {
+    background-color: #4ecca6;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.style1 ul li {
+    list-style: square;
+    padding: 10px;
+}
+
+/* ================== Section6 ================== */
+
+
+.section6 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 350px;
+    padding: 50px;
+
+}
+
+.section6 img {
+    width: 200px;
+    height: 40px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+/* ================== Section7 =================== */
+
+.section7 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    background-color: #e7e7e7b1;
+    padding: 20px;
+}
+
+.section7 div {
+    width: 25%;
+}
+
+.section7 img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.meet h4,
+.meet h2,
+.meet p {
+    padding: 10px;
+    text-align: left;
+}
+
+.meet h4 {
+    color: #4ecca6;
+}
+
+.meet button {
+    background-color: #4ecca6;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: white;
+}
+
+/* ================= Section8 ==================== */
+.section8 img {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 400px;
+    filter: brightness(30%);
+    z-index: 0;
+}
+
+.section8 div {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    text-align: center;
+    color: white;
+    left: 25%;
+    top: 410%;
+}
+
+.section8 h2 {
+    padding: 5px;
+    font-size: 40px;
+}
+
+.section8 p {
+    padding: 5px;
+    color: #e7e7e7b1;
+}
+
+.section8 button {
+    background-color: #4ecca6;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+}
+
+/* ================= Section8 =================== */
+
+.section9 {
+    position: relative;
+    top: 450px;
+    width: 40%;
+    left: 30%;
+    text-align: center;
+}
+
+
+.section9 p {
+    color: rgba(48, 48, 48, 0.869);
+}
+
+/* =================== Section10 ================== */
+
+.section10 {
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section10 div {
+    width: 22%;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.section10 img {
+    width: 300px;
+    height: 250px;
+}
+
+.section10 button {
+    background-color: #4ecca6;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    color: white;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+
+}
+
+.section10 img,
+.section10 p,
+.section10 h2 {
+    padding: 5px;
+}
+
+/* ================== Section11 ================= */
+
+.section11 {
+    position: relative;
+    top: 530px;
+    width: 50%;
+    left: 38%;
+    align-items: center;
+}
+
+.section11 a {
+    text-decoration: none;
+    color: #6d6b6bf3;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ================= Footer ===================== */
+footer {
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 550px;
+    background-color: #dad7cbc2;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.footer .first {
+    width: 30%;
+    padding-top: 50px;
+}
+
+.footer h1,
+.footer h4 {
+    color: #4ecca6;
+}
+
+.footer .second,
+.footer .third {
+    width: 15%;
+}
+
+.footer .second a,
+.footer .third a {
+    color: #6d6b6bf3;
+}
+
+.footer .forth {
+    width: 30%;
+}
+
+.footer p {
+    color: #6d6b6bf3;
+}
+
+.footer h1,
+.footer p,
+.footer a,
+.footer h4 {
+    padding: 5px;
+}
+
+.footer form input {
+    width: 150px;
+    padding: 5px;
+}
+
+.footer form button {
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #4ecca6;
+    color: white;
+    border: none;
+    box-shadow: 1px 0px 1px 0px gray;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 520px;
+    color: black;
+    align-items: center;
+}
+
+hr {
+    position: relative;
+    top: 500px;
+}
+
+/* ================ Media Query ================== */
+@media (max-width: 1037px) {
+
+    .head {
+        display: none;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    nav p {
+        display: none;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    nav ul li.drop {
+        display: block;
+    }
+
+    /* ================== Main ====================== */
+
+    .image img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .textarea {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        margin: auto;
+        width: 80%;
+    }
+
+    /* ============== Section2 ================= */
+
+    .section2 {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2b {
+        position: unset;
+        border-radius: 10px;
+    }
+
+    .section2b button {
+        margin-bottom: 0;
+    }
+
+    .section2a,
+    .section2b {
+        width: 70%;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    /* ================== Section3 =============== */
+    .section3 {
+        top: 0;
+        flex-direction: column;
+    }
+
+    .section3 div {
+        width: 90%;
+        align-items: center;
+    }
+
+    .section3 .section3b {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 80px 50px 50px 40px;
+    }
+
+
+    .section3 iframe {
+        position: relative;
+        top: 20px;
+        width: 100%;
+        left: 0;
+    }
+
+    .section3a {
+        display: flex;
+        position: relative;
+        left: -50px;
+    }
+
+
+    /* ===================== Section4 ==================== */
+
+    .section4 {
+        position: relative;
+        top: 20px;
+    }
+
+    .section4a {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4a div {
+        width: 90%;
+    }
+
+    /* ====================== Section5 ================ */
+    .section5 {
+        flex-direction: column;
+        top: 0;
+        padding: 0px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section5 div {
+        width: 90%;
+        align-items: center;
+    }
+
+    .section5 div img {
+        margin-left: 0px;
+        width: 100%;
+        position: relative;
+    }
+
+    .section5 .style div {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+
+    .style1 ul li {
+        padding: 5px;
+    }
+
+
+    /* ================== Section6 ================ */
+
+    .section6 {
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section6 img {
+        width: 150px;
+        height: 40px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    /* =================== Section7 ================ */
+
+    .section7 {
+        flex-direction: column;
+        top: 0;
+        text-align: center;
+    }
+
+    .section7 div {
+        width: 100%;
+    }
+
+    .section7 .meet {
+        width: 80%;
+    }
+
+    .section7 img {
+        margin: 10px;
+
+    }
+
+    .meet h4,
+    .meet h2,
+    .meet p {
+        text-align: center;
+    }
+
+    /* ===================== Section8 ================ */
+    .section8 {
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section8 img {
+        position: relative;
+        height: 400px;
+        top: 0;
+    }
+
+
+    .section8 div {
+        position: absolute;
+        left: 25%;
+        top: 0;
+        padding-top: 100px;
+    }
+
+
+    .section8 h2 {
+        font-size: 20px;
+    }
+
+    /* =================== Section9 ================= */
+
+    .section9 {
+        top: 0;
+        width: 90%;
+        left: 4%;
+        padding-top: 20px;
+    }
+
+    /* ================ Section10 =================== */
+    .section10 {
+        top: 20px;
+        flex-direction: column;
+    }
+
+    .section10 div {
+        width: 90%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    /* ================= Section11 ================= */
+
+    .section11 {
+        align-items: center;
+        top: 0;
+        left: 20%;
+        margin-top: 5%;
+    }
+
+    .section11 a {
+        font-size: 15px;
+    }
+
+    /* ===================== Footer ================ */
+
+    .footer {
+        top: 0;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+
+    .footer div {
+        padding-top: 10px;
+    }
+
+
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer .first {
+        width: 90%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+
+    .footer .second,
+    .footer .third {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .footer .forth {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .footer h1,
+    .footer p,
+    .footer a,
+    .footer h4 {
+        padding: 0px;
+    }
+
+    .footer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .last {
+        flex-direction: column;
+        top: -50px;
+        color: black;
+    }
+
+    hr {
+        position: relative;
+        top: -60px;
+    }
+
+
+
+}
