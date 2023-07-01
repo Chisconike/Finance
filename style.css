@@ -446,7 +446,7 @@ nav ul li.drop {
     text-align: center;
     color: white;
     left: 25%;
-    top: 410%;
+    top: 405%;
 }
 
 .section8 h2 {
@@ -780,7 +780,7 @@ hr {
 
     .section6 {
         top: 0;
-        flex-direction: column;
+        flex-digitrection: column;
         align-items: center;
     }
 
