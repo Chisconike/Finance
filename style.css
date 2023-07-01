@@ -101,8 +101,6 @@ nav ul li.drop {
     position: absolute;
     top: 350px;
     left: 100px;
-    width: 500px;
-    background-color: #00000075;
     color: white;
     width: 400px;
     background-color: #00000075;
@@ -635,7 +633,14 @@ hr {
 @media (max-width: 1037px) {
 
     .head {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cool {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     nav {
@@ -662,14 +667,14 @@ hr {
 
     .image img {
         width: 100%;
-        height: 400px;
+        height: 300px;
     }
 
     .textarea {
-        position: absolute;
-        top: 15%;
-        left: 10%;
-        margin: auto;
+        position: sticky;
+        top: 0;
+        left: 0;
+        margin: 20px auto;
         width: 80%;
     }
 
@@ -945,6 +950,28 @@ hr {
         top: -60px;
     }
 
+    /* ================ Java ==================== */
+    ul.topnav.responsive li.drop {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
 
 
 }

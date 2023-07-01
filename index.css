@@ -287,5 +287,28 @@ div.about {
         top: -60px;
     }
 
+    /* ================ Java ==================== */
+    ul.topnav.responsive li.drop {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
 
 }
